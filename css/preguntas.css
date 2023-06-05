@@ -14,9 +14,12 @@ select{
     padding: 10px;
     margin: 10px 0;
 }
+.miverga {
+    max-width: 500px;
+}
 .contenedor{
     max-width: 700px;
-    margin: auto;
+    margin: 20px;
     padding: 20px;
 }
 button{
@@ -34,7 +37,7 @@ button:hover{
     background: #000;
     color: #fff;
 }
-label{
+option{
     display: block;
     padding: 7px;
     border: 1px dashed #ccc;
@@ -42,6 +45,6 @@ label{
     cursor: pointer;
     margin-bottom: 3px;
 }
-label{
+option:hover{
     background: #cec0fc;
 }
